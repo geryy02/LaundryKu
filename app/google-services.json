@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "1090089627660",
+    "project_id": "laundryku-ef3b6",
+    "storage_bucket": "laundryku-ef3b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090089627660:android:3f2fc90c7bde85fbbabe29",
+        "android_client_info": {
+          "package_name": "com.pemrogramanmobile.laundryku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090089627660-5u94muspi462jp3aauvvsos0atog4rr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGH-jY7GJDfac9Gs5haUlEAXKOpKWpPNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090089627660-5u94muspi462jp3aauvvsos0atog4rr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090089627660:android:64a6f145fbf70ffbbabe29",
+        "android_client_info": {
+          "package_name": "com.projectmobile.laundryku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090089627660-vcaacp3agqu40e0itb783i8dnvr2cg05.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projectmobile.laundryku",
+            "certificate_hash": "90ac2a793b6f9420a59d7ca369d9f3d472fdf7c3"
+          }
+        },
+        {
+          "client_id": "1090089627660-5u94muspi462jp3aauvvsos0atog4rr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGH-jY7GJDfac9Gs5haUlEAXKOpKWpPNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090089627660-5u94muspi462jp3aauvvsos0atog4rr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

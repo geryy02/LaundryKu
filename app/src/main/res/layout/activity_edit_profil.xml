@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfilActivity"
+    android:background="#E2F5F9">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E2F5F9"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_editProfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="Edit Profil"
+            app:titleTextAppearance="@style/Toolbar.TitleText">
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Lengkap:"
+                android:layout_marginBottom="5dp"
+                android:textSize="14dp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/gfflatinregular"/>
+            <EditText
+                android:id="@+id/et_profilnamaLengkap"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Masukkan Nama Lengkap"
+                android:textSize="12dp"
+                android:paddingLeft="10dp"
+                android:textColorHint="#828D8F"
+                android:fontFamily="@font/gfflatinregular"
+                android:background="@drawable/edit_form_radius"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Nomor Hp:"
+                android:textSize="14dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/gfflatinregular"/>
+            <EditText
+                android:id="@+id/et_profilnomorhp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Masukkan Nomor Hp"
+                android:textSize="12dp"
+                android:paddingLeft="10dp"
+                android:textColorHint="#828D8F"
+                android:fontFamily="@font/gfflatinregular"
+                android:background="@drawable/edit_form_radius"
+                android:inputType="number"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Email:"
+                android:textSize="14dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/gfflatinregular"/>
+            <EditText
+                android:id="@+id/et_profilemail"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Masukkan Email"
+                android:textSize="12dp"
+                android:paddingLeft="10dp"
+                android:textColorHint="#828D8F"
+                android:fontFamily="@font/gfflatinregular"
+                android:background="@drawable/edit_form_radius"
+                android:inputType="textEmailAddress"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Password Lama"
+                android:textSize="14dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/gfflatinregular"/>
+            <EditText
+                android:id="@+id/et_profilpasswordlama"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Masukkan Password Lama"
+                android:textSize="12dp"
+                android:paddingLeft="10dp"
+                android:textColorHint="#828D8F"
+                android:fontFamily="@font/gfflatinregular"
+                android:background="@drawable/edit_form_radius"
+                android:inputType="textPassword"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Password Baru"
+                android:textSize="14dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/gfflatinregular"/>
+            <EditText
+                android:id="@+id/et_profilpasswordbaru"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Masukkan Password Baru"
+                android:textSize="12dp"
+                android:paddingLeft="10dp"
+                android:textColorHint="#828D8F"
+                android:fontFamily="@font/gfflatinregular"
+                android:background="@drawable/edit_form_radius"
+                android:inputType="textPassword"/>
+            <Button
+                android:id="@+id/btn_simpanprofil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:text="simpan"
+                android:textColor="@color/white"
+                android:fontFamily="@font/gfflatinbold"
+                android:background="@drawable/btn_konfirmasi_radius"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

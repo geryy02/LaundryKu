@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LaundryKu"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LupaPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".TentangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KiloanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PesanKiloanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiwayatKiloanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditPesanKiloanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PesanVipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiwayatVipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditPesanVipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KarpetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PesanKarpetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiwayatKarpetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditPesanKarpetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EkspressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PesanEkspressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiwayatEkspressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditPesanEkspressActivity"
+            android:exported="false"/>
+    </application>
+
+</manifest>
